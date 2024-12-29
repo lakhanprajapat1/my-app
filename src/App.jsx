@@ -5,13 +5,8 @@ import './App.css'
 
 
 
-function title() {
-  return <h1>i am title</h1>
-}
-
-
 function App() {
-  return <title/>
+  return  <a href="mailto:lakhan10209@gmail.com">lalalalalala</a>
 }
 
 
