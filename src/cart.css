@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 50vh;
+    width: 30vw;
+    border:1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.container img{
+    background-size: cover;
+    height: 70%;
+    width: 90%;
+    margin:0  auto;
+}
+
+.container button{
+    font-size: 20px;
+    padding: 10px 30px;
+}

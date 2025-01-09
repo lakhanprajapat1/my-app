@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Cart from './cart.jsx'
+import Navbar from './nav.jsx'
 import './App.css'
-
-
-
+import Home from './home.jsx'
 function App() {
-  return  <a href="mailto:lakhan10209@gmail.com">lalalalalala</a>
+  return  <>
+  <Navbar/>
+  <Home/>
+  <div className="pro">
+  <Cart/>
+  <Cart/>
+  </div>
+  </>
+  
 }
-
 
 
 export default App;
