@@ -5,21 +5,40 @@
 }
 .container{
     height: 50vh;
-    width: 30vw;
+    width: 330px;
     border:1px solid gray;
+    border-radius: 10px;
+    background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
+    padding: 20px ;
+}
+.cart:hover>:not(:hover){
+    opacity: .7;
 }
 .container img{
     background-size: cover;
-    height: 70%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     margin:0  auto;
+    border-radius: 10px;
 }
 
 .container button{
     font-size: 20px;
-    padding: 10px 30px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: burlywood;
+    border: none;
+}
+h3{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
 }

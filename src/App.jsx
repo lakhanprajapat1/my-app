@@ -7,8 +7,13 @@ function App() {
   <Navbar/>
   <Home/>
   <div className="pro">
-  <Cart/>
-  <Cart/>
+    <h1 className='pro-heading' >Products</h1>
+    <div className="cart">
+    <Cart/>
+    <Cart/>
+    <Cart/>
+    <Cart/>
+    </div>
   </div>
   </>
   
