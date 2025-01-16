@@ -15,9 +15,9 @@
     overflow: hidden;
     padding: 20px ;
 }
-.cart:hover>:not(:hover){
-    opacity: .7;
-}
+/* .cart:hover>:not(:hover){
+    opacity: .5;
+} */
 .container img{
     background-size: cover;
     height: 100%;
@@ -32,8 +32,12 @@
     border-radius: 20px;
     width: 60%;
     margin: 0 auto;
-    background-color: burlywood;
+    background-color: #04565a79;
     border: none;
+}
+.container button:hover{
+    background-color: #04565A;
+    color: #fff;
 }
 h3{
     text-align: center;

@@ -1,35 +1,59 @@
 nav{
     height: 12vh;
     width: 100vw;
-    background-color: rgba(130, 130, 130, 0.605);
+    background-color: #04565A;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    padding:0 50px;
     color: #fff;
 }
 .links ul li{
     list-style: none;
     display: inline;
-    padding: 0 20px;
+    padding:  20px;
 }
 .links ul li a{
     text-decoration: none;
+    color:#fff;
 }
 .home{
     height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/5a/89/08/5a8908593a2a542c5f13942fb1599d2a.jpg);
+    background-size: cover;
+    color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-.l-home, .r-home{
-    width: 50%;
+.home h1{
+    font-size: 9vh;
 }
-.img-div{
-    height: 80%;
-    width: 80%;
+.home h3{
+    font-size: 6vh;
+    margin-top: 30px;
 }
-.img-div img{
-    height: 100%;
-    width: 100%;
+.home button{
+    padding: 7px 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.home button:hover{
+    background-color: rgba(45, 44, 131, 0.695);
+    color: #fff;
+}
+@media (max-width:799px) {
+    nav{
+        flex-direction: column;
+        padding-bottom: 20px;
+        height: auto;
+    }
+    .logo{
+        padding: 20px;
+    }
 }
